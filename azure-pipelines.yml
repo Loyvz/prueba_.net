@@ -8,10 +8,6 @@ trigger:
 
 pool:
   name: 'mi agente'  # Nombre exacto del pool de tu agente local
-
-steps:
-- script: echo "Ejecutando en agente local"
-  displayName: 'Mensaje de prueba'
   
 variables:
   solution: '**/*.sln'
